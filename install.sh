@@ -1,2 +1,4 @@
-mkdir ~/.hammerspoon/
-ln -s /Users/adam/sandbox/hammerspoon/init.lua /Users/adam//.hammerspoon/init.lua
+#!/bin/bash
+
+# sym link this dir where hammerspoon expects it
+ln -s /Users/adam/sandbox/hammerspoon /Users/adam/.hammerspoon
